@@ -25,6 +25,7 @@ n_factorial(N, F) :-
 %%   ?- double_fd(3, Y).
 %%   ?- double_fd(X, 6).            % X = 3
 %%   ?- double_fd(X, Y).            % no solution yet: a residual constraint
+%%   ?- X in 1..10, double_fd(X, Y), label([X]).
 %%
 %%   ?- n_factorial(5, F).
 %%   ?- n_factorial(N, 120).        % N = 5, and ";" then answers false:
