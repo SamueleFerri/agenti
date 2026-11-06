@@ -1,7 +1,3 @@
-%%%% Blocks World in STRIPS: states, goals, operators
-%%%% L8 – STRIPS Planning in Prolog, Intelligent Agents 2026/2027
-%%%% by Andrea Omicini <mailto:andrea.omicini@unibo.it>
-
 % a state is a list of ground atoms: what is not there is false
 initial_state([ontable(a), clear(a),
                ontable(c), on(b, c), clear(b)]).

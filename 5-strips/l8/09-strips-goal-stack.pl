@@ -1,7 +1,3 @@
-%%%% STRIPS's own algorithm: one goal at a time
-%%%% L8 – STRIPS Planning in Prolog, Intelligent Agents 2026/2027
-%%%% by Andrea Omicini <mailto:andrea.omicini@unibo.it>
-
 % the worked example, and the Sussman anomaly
 initial_state([ontable(a), clear(a),
                ontable(c), on(b, c), clear(b)]).

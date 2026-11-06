@@ -1,7 +1,3 @@
-%%%% The UPS World: what linear STRIPS cannot do
-%%%% L8 – STRIPS Planning in Prolog, Intelligent Agents 2026/2027
-%%%% by Andrea Omicini <mailto:andrea.omicini@unibo.it>
-
 % the UPS World: one plane, fuel for one flight;
 % plane/1 and location/1 are static: no operator touches them
 initial_state([at(obj1, locA), at(obj2, locA),

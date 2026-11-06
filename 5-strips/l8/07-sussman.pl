@@ -1,7 +1,3 @@
-%%%% The Sussman anomaly
-%%%% L8 – STRIPS Planning in Prolog, Intelligent Agents 2026/2027
-%%%% by Andrea Omicini <mailto:andrea.omicini@unibo.it>
-
 % the Sussman anomaly: c on a, b on the table; a-b-c wanted
 sussman([on(c, a), ontable(a), clear(c),
          ontable(b), clear(b)]).

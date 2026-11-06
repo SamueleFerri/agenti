@@ -1,7 +1,3 @@
-%%%% Planning as deduction: the situation calculus in Prolog
-%%%% L8 – STRIPS Planning in Prolog, Intelligent Agents 2026/2027
-%%%% by Andrea Omicini <mailto:andrea.omicini@unibo.it>
-
 % poss(S): situation S can be reached
 poss(s0).
 poss(do(A,S)) :- poss(S), pact(A,S).
